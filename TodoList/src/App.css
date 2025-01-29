@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    width: 100%;
+    height: 500px;    
+    
+}
+/* Add this to your global styles (e.g., styles.css) */
+.scrollbar-custom::-webkit-scrollbar {
+    width: 8px;    
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: #8694a9; /* Tailwind Gray-500 */
+    border-radius: 4px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+    background-color: #E5E7EB; /* Tailwind Gray-200 */
+}
